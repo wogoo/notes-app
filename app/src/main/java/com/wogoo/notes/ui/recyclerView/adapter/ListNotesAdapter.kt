@@ -42,6 +42,7 @@ class ListNotesAdapter(
                 } else {
                     imagemNota.tryLoadImage(note.image)
                     VISIBLE
+
                 }
             binding.noteItemTitle.text = note.title
             binding.noteItemDesc.text = note.description
